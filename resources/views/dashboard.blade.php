@@ -16,7 +16,8 @@
     </header>
     <main>
         <div class="m-6 mb-12 rounded-xl p-6 shadow-xl sm:p-10">
-            <h1 class="text-3xl font-semibold">Dashboard</h1>
+            <h1 class="text-3xl font-semibold">Привет {{$userName}}</h1>
+
         </div>
     </main>
 @endsection
