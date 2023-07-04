@@ -15,9 +15,9 @@
         </div>
     </header>
     <main>
+        @php  $LANG_CONST = 'messages.dashboard.' @endphp
         <div class="m-6 mb-12 rounded-xl p-6 shadow-xl sm:p-10">
-            <h1 class="text-3xl font-semibold">Привет {{$userName}}</h1>
-
+            <h1 class="text-3xl font-semibold">{{__($LANG_CONST.'header.greeting')}} {{$userName}}</h1>
         </div>
     </main>
 @endsection

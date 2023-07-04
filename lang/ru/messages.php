@@ -1,6 +1,11 @@
 <?php 
 
     return[
+        'dashboard' => [
+            'header' => [
+                'greeting' => 'Привет'
+            ]
+        ],
         'registration' => [
 
             'header' => [
