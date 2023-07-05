@@ -29,7 +29,7 @@
                     'label' => 'Пароль',
                     'placeholder' => 'Минимальная длинна 8 символов'
                 ],
-                'confirmPassword' => [
+                'password_confirmation' => [
 
                     'label' => 'Подтверждение пароля',
                     'placeholder' => 'Минимальная длинна 8 символов'
