@@ -1,7 +1,3 @@
-@php 
-    // TODO: Переделать все на компоненты
-@endphp
-
 @extends('templates.main')
 @section('content')
     <svg class="fixed bottom-0 fill-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
