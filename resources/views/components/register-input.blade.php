@@ -4,7 +4,7 @@
             <div class="absolute inset-y-0 left-0 flex items-center pl-3">
                 {{$slot}}
             </div>
-            <input type="text" id="{{$nameInput}}" name="{{$nameInput}}" required 
+            <input type="{{$typeInput}}" id="{{$nameInput}}" name="{{$nameInput}}" required 
                 class="
                     w-full rounded-md  pl-10 text-sm
                     @error($nameInput) 
@@ -24,5 +24,5 @@
                 @enderror 
             </div>
         </div>
-        @error($nameInput)  <p class="mt-2 text-sm text-red-600">{{ $message }}</p> @enderror 
+        @error($nameInput)  <p class="mt-2 text-sm text-red-600">{{ ucfirst($message) }}</p> @enderror 
     </div>

@@ -11,14 +11,15 @@ class registerInput extends Component
 
     public $LANG_CONST;
     public $nameInput;
-
+    public $typeInput;
     /**
      * Create a new component instance.
      */
-    public function __construct($nameInput = '')
+    public function __construct($nameInput = '', $typeInput = '')
     {
         $this->LANG_CONST = 'messages.registration.registrationForm.';
         $this->nameInput = $nameInput;
+        $this->typeInput = $typeInput;
     }
 
     /**
