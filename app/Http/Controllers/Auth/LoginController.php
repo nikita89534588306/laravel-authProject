@@ -18,12 +18,12 @@ class LoginController extends Controller
 
     public function store(LoginRequest $credentials)
     {
-        if (! Auth::attempt($credentials->only('email', 'password'))) {
+        if (! Auth::attempt($credentials->only('email', 'password'), $credentials->boolean('remember'))) {
             throw ValidationException::withMessages([
                 'email' => 'Неправельно введен email-адрес или пароль'
             ]);
         }
-
+        $credentials->session()->regenerate(); 
         return redirect()->intended(RouteServiceProvider::HOME);
     }
 }

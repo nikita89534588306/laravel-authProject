@@ -36,6 +36,6 @@
 
     @php  $LANG_CONST = 'messages.registration.registrationForm.' @endphp
     <div class="mt-6 flex items-center justify-center">
-        <a href="login.html" class="text-sm font-medium text-green-600 hover:text-green-500">{{__($LANG_CONST.'referenceOnLogin.textRef')}}</a>
+        <a href="{{route('login')}}" class="text-sm font-medium text-green-600 hover:text-green-500">{{__($LANG_CONST.'referenceOnLogin.textRef')}}</a>
     </div>
 </div>

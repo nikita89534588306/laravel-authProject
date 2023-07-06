@@ -38,7 +38,7 @@
                     'textOnBtn' => 'Зарегистрироваться'
                 ],
                 'referenceOnLogin' => [
-                    'textRef' => 'Вы уже имеете аккаунт?'
+                    'textRef' => 'Уже есть аккаунт?'
                 ]
 
             ]
@@ -50,6 +50,12 @@
             'loginForm' => [
                 'buttonSubmit' => [
                     'textOnBtn' => 'Войти'
+                ],
+                "rememberMe" => [
+                    'text' => 'Сохранить вход'
+                ],
+                'passwordRecovery' => [
+                    'text' => 'Забыли пароль?'
                 ]
             ]
         ],

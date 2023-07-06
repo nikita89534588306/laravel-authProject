@@ -16,6 +16,15 @@
 
 
                 @php  $LANG_CONST = 'messages.login.loginForm.' @endphp
+                <div class="flex items-center justify-between mb-6">
+                    <div class="flex items-center gap-2">
+                        <input type="checkbox" id="remember" name="remember" class="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500" />
+                        <label for="remember" class="text-sm text-gray-900">{{__($LANG_CONST.'rememberMe.text')}}</label>
+                    </div>
+                    <a href="forgot-password.html" class="text-sm font-medium text-green-600 hover:text-green-500">{{__($LANG_CONST.'passwordRecovery.text')}}</a>
+                </div>
+
+                @php  $LANG_CONST = 'messages.login.loginForm.' @endphp
                 <div>
                     <button type="submit" 
                         class="flex w-full items-center justify-center rounded-md bg-green-600 py-2 px-4 font-semibold 
