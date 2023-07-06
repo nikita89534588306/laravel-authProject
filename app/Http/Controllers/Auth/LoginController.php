@@ -26,4 +26,15 @@ class LoginController extends Controller
         $credentials->session()->regenerate(); 
         return redirect()->intended(RouteServiceProvider::HOME);
     }
+    
+    public function destroy(Request $request)
+    {
+        Auth::logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect()->route('welcome');
+    }
 }
