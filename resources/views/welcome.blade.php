@@ -15,4 +15,8 @@
             <a href="{{ route('register') }}" class="rounded-md bg-green-600 py-2 px-4 font-semibold text-white shadow-lg transition duration-150 ease-in-out hover:bg-green-700 hover:shadow-xl focus:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">Register</a>
         </div>
     </header>
+    <main>
+        <h1 class='ms-10 mt-2 text-2xl font-bold text-gray-900 sm:mt-6 sm:text-3xl'> Главная станица</h1>
+        <p class='ms-12 mt-5' >Тестовы проект для аутоидентификации и регистрации пользователей</p>
+    </main>
 @endsection
