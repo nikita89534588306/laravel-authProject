@@ -42,7 +42,27 @@
                 ]
 
             ]
+        ],
+        'login' => [
+            'header' => [
+                'textHeader' => 'Вход'
+            ],
+            'loginForm' => [
+                'buttonSubmit' => [
+                    'textOnBtn' => 'Войти'
+                ]
+            ]
+        ],
+        'mainHeader' => [
+            'btnRegister' => [
+                'textBtn' => 'Регистрация'
+            ],
+            'btnLogin' => [
+                'textBtn' => 'Вход'
+            ]
         ]
+
+
     ]
 
 ?>
